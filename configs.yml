@@ -1,0 +1,22 @@
+data:
+  CELEBA_FOLDER: path_to_the_folder_containing_celeba_images
+  CELEBA_PREPROCESSED_ROOT: path_to_the_root_where_preprocessed_images_are_to_be_saved
+gan:
+  BATCH_SIZE: 64
+  IMG_SIZE: 64
+  CHECKPOINT_EVERY: 3165
+  LR: 0.0001
+  MAX_ITERS: 316500
+  SAMPLE_EVERY: 3165
+  REG_PARAM: 10.0
+  W_INFO: 0.001
+  D_STEPS: 1
+  PLOT_EVERY: 10
+vae:
+  BATCH_SIZE: 64
+  BETA: 10.0
+  CHECKPOINT_EVERY: 3165
+  LR: 0.0001
+  MAX_ITERS: 316500
+  SAMPLE_EVERY: 3165
+  PLOT_EVERY: 10
